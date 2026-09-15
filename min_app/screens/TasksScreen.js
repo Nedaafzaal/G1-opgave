@@ -1,4 +1,4 @@
-//Her bliver der impoteret view,text og FlatList.
+//Her bliver der importeret view,text og FlatList.
 //FlatList bliver anvendt til at se listen af opgaver.
 import { View, Text, FlatList } from 'react-native';
 //Her bliver stylingen impoteret fra Style.js

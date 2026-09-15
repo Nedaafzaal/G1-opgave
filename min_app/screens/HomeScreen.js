@@ -1,3 +1,5 @@
+//Her bliver der importeret View, text og button.
+//Button bliver brugt til at navigere mellem de forskellige screens. 
 import { View, Text, Button } from 'react-native';
 import styles from '../styles/Style';
 
