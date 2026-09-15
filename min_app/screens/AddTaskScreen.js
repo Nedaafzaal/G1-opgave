@@ -1,6 +1,6 @@
 // view,text, textInput og button importeres. 
 import { View, Text, TextInput, Button } from 'react-native';
-//Her bliver der importeret useSate for at inputtet kan gemmes. 
+//Her bliver der importeret useState for at inputtet kan gemmes. 
 import { useState } from 'react';
 import styles from '../styles/Style';
 

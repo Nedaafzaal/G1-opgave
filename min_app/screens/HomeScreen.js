@@ -13,12 +13,12 @@ export default function HomeScreen({ navigation }) {
       <Text style={styles.text}>
         Få overblik over dine lektier og afleveringer.
       </Text>
-
+{/*Knappen bruges til at sende brugeren videre til opgavelisten */}
       <Button
         title="Se mine opgaver"
         onPress={() => navigation.navigate('Tasks')}
       />
-
+{/*Knappen bruges til at sende brugeren videre til screen hvor man tilføjer opgave/aktivitet*/}
       <Button
         title="Tilføj aktivitet"
         onPress={() => navigation.navigate('AddTask')}
