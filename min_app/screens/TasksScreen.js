@@ -10,9 +10,10 @@ export default function TasksScreen({ tasks }) {
       <Text style={styles.title}>
         Mine opgaver
       </Text>
+{/*Her bliver FlatList brugt til at vise alle opgaverne*/}
       <FlatList
-        data={tasks}
-        keyExtractor={(item) => item.id}
+        data={tasks}// Her bliver opgaverne hentet fra tasklisten.
+        keyExtractor={(item) => item.id}//Hver opgave bliver tildelt en id
         renderItem={({ item }) => (
           <Text style={styles.task}>
             {item.title}
