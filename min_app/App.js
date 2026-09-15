@@ -12,8 +12,7 @@ export default function App() {
 
   const [tasks, setTasks] = useState([
     { id: '1', title: 'Læs kapitel 4' },
-    { id: '2', title: 'Lav innovation-opgave' },
-    { id: '3', title: 'Forbered programmering' }
+    { id: '2', title: 'Lav aflevering' },
   ]);
 
   return (
