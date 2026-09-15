@@ -1,4 +1,6 @@
+// view,text, textInput og button importeres. 
 import { View, Text, TextInput, Button } from 'react-native';
+//Her bliver der importeret useSate for at inputtet kan gemmes. 
 import { useState } from 'react';
 import styles from '../styles/Style';
 
@@ -7,20 +9,20 @@ export default function AddTaskScreen({
   tasks,
   setTasks
 }) {
-
+//Her bliver det som brugeren indtaster gemt.
   const [task, setTask] = useState('');
 
   function addTask() {
-
+//Her bliver den nye opgave oprettet.
     const newTask = {
       id: (tasks.length + 1).toString(),
       title: task
     };
-
+//Her tilføjes den nye opgave til opgavelisten.
     setTasks([...tasks, newTask]);
-
+//Her bliver feltet tømt efter opgaven bliver tilføjet.
     setTask('');
-
+//Her videre sendes man til siden med opgaver.
     navigation.navigate('Tasks');
   }
 

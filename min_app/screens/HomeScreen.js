@@ -2,7 +2,6 @@
 //Button bliver brugt til at navigere mellem de forskellige screens. 
 import { View, Text, Button } from 'react-native';
 import styles from '../styles/Style';
-
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
