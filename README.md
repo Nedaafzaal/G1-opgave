@@ -6,3 +6,5 @@ npm install
 npx expo start 
 ## Link til video 
 https://youtu.be/7MyI5Mx6szU?si=BFVq-xBmeHzCBiVu
+## Link til Github
+https://github.com/Nedaafzaal/G1-opgave
